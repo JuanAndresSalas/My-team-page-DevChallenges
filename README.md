@@ -38,9 +38,6 @@
 
 ![My team page](https://github.com/JuanAndresSalas/My-team-page-DevChallenges/assets/121072759/b337bb00-f436-4099-ba60-745573086f88)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- This project helped me improve my basic CSS and HTML skills.
 
 ### Built With
 
