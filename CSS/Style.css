@@ -1,0 +1,230 @@
+body{
+    display: grid;
+    place-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 3%;
+   
+}
+
+.title{
+    width: 100%;
+}
+
+.title p{
+    color: #000;
+    font-size: 36px;
+    font-family: PT Serif;
+    font-weight: 700;
+    letter-spacing: -1.62px;
+    width: auto;
+    
+}
+
+.description{
+    width: 100%;
+}
+
+#description-title{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#description-text{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 300;
+    width: 100%;
+    
+}
+
+
+main{
+    display: grid;
+    gap: 8rem;
+    grid-auto-rows: 20rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+img{
+    width: 85%;
+    height: 100%;
+    max-width: 238px;
+}
+
+.img-job-container{
+    display: flex;
+    align-items: flex-start;
+    max-width: 350px
+}
+
+.job-container {
+    color: #000;
+    font-size: 12px;
+    font-family: PT Serif;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    margin-top: 0%;
+    margin-left: 0%; /* Ajusta el valor según sea necesario */
+    width: auto;
+}
+
+.name{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-top: -1px;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+}
+
+#member-2, #member-5{
+    margin-top: 15%;
+}
+
+footer{
+    display: grid;
+    place-content: center;
+    margin-top: 15%;
+}
+
+footer p{
+    color: #A9A9A9;
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    main{
+        display: grid;
+        gap: 8rem;
+        grid-auto-rows: 20rem;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    }
+
+    .job-container {
+        color: #000;
+        font-size: 12px;
+        font-family: PT Serif;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+        margin-top: 0%;
+        margin-left: 1%; /* Ajusta el valor según sea necesario */
+        width: auto;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    main{
+        display: grid;
+        gap: 8rem;
+        grid-auto-rows: 10rem;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    }
+
+    .job-container {
+        color: #000;
+        font-size: 12px;
+        font-family: PT Serif;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+        margin-top: 0%;
+        margin-left: 0%; /* Ajusta el valor según sea necesario */
+        width: auto;
+    }
+   
+
+    #member-5{
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 426px) {
+   
+    main{
+        display: grid;
+        gap: 1rem;
+        grid-auto-rows: 20rem;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    }
+
+    #member-4, #member-6{
+        margin-top: 15%;
+    }
+
+    #member-5{
+        margin-top: 0%;
+    }
+
+    header{
+        display: grid;
+    }
+}
+
+@media (max-width: 375px) {
+   
+    main{
+        display: grid;
+        gap: 7rem;
+        grid-auto-rows: 20rem;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    }
+
+    #member-4, #member-6,#member-5, #member-2{
+        margin-top: 0%;
+    }
+
+   
+
+    header{
+        display: grid;
+    }
+}
+
+@media (max-width: 320px) {
+   
+    main{
+        display: grid;
+        gap: 7rem;
+        grid-auto-rows: 20rem;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    }
+
+    #member-4, #member-6,#member-5, #member-2{
+        margin-top: 0%;
+    }
+
+    .job-container {
+        color: #000;
+        font-size: 12px;
+        font-family: PT Serif;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+        margin-top: 0%;
+        margin-left: 0%; /* Ajusta el valor según sea necesario */
+        width: auto;
+    }
+
+    header{
+        display: grid;
+    }
+}
